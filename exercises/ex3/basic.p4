@@ -35,6 +35,7 @@ header ipv4_t {
 
 struct metadata {
     /* empty */
+bit<16> tcpLen;
 }
 
 struct headers {
